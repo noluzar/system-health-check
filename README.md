@@ -23,16 +23,11 @@ Optional: SMTP email account if email alerts are enabled
 Install required packages:
 pip install psutil
 
-Usage
-
+**Usage:**
 Download the script and save it as system_health_check.py.
-
 Configure optional settings in the script:
-
 CHECK_INTERVAL – how often to check system health (seconds)
-
 CPU_THRESHOLD, MEMORY_THRESHOLD, DISK_THRESHOLD – thresholds for alerts
-
 Email settings (EMAIL_ALERTS, EMAIL_SENDER, EMAIL_RECEIVER, etc.)
 
 **Run the script:**
